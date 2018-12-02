@@ -1,0 +1,12 @@
+---
+- name: Cisco IOS master script.
+  hosts: "{{ host_name }}" # ask as a group or host in the survey
+  gather_facts: false
+  connection: local
+
+  vars_files:
+    - group_vars/vault.yml
+
+
+  roles:
+    - show_version

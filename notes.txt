@@ -1,0 +1,9 @@
+
+get ansible working with the cisco 2960 sw03
+
+pip install ansible
+pip install netmiko
+
+get ansible working with the cisco 2960 sw03
+
+ "msg": "Unsupported parameters for (ios_command) module: transport found in provider. Supported parameters include: auth_pass,authorize,host,password,port,ssh_keyfile,timeout,username"

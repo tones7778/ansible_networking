@@ -1,0 +1,11 @@
+---
+- name: run show version
+  ios_command:
+    commands:
+      - show version | i IOS
+    provider: "{{ cli }}"
+
+  register: results_show_version
+
+- name: print out results of show version.
+  debug: var=results_show_version

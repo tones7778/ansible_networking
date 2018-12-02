@@ -1,0 +1,11 @@
+*.pyc
+env
+*env/
+venv/
+*venv/
+*.retry
+*secrets.ini
+*.log
+*.vault.yml
+*.idea/*
+group_vars/vault.yml
